@@ -15,6 +15,8 @@
 body {
   background-color: var(--white);
   color: var(--slate);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
 }
 /* reset */
 h1,
@@ -59,21 +61,58 @@ img {
 }
 .title {
   color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
 }
-/* header block (for all pages)*/
+.text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+/* logo block (for all pages) */
+.logo {
+  font-family: Raleway, cursive;
+}
+/* btn (for all pages) */
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+
+/* HEADER BLOCK (for all pages)*/
 .header-web-logo {
   color: var(--iris);
 }
 .header-studio-logo {
   color: var(--navy-blue);
 }
-
+/* studio-portfolio-contacts */
 .nav-link {
   color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .current {
   color: var(--ocean);
 }
+/* mail-tel */
+.address-link {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
+}
+
 /* footer block (for all pages)*/
 .footer {
   color: var(--cornflower);
@@ -86,12 +125,17 @@ img {
   color: var(--cloud);
 }
 
+
 /* index.html/hero section */
 .hero {
   background-color: var(--navy-blue);
 }
 .hero-title {
   color: var(--white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  text-align: center;
 }
 .hero-btn {
   cursor: pointer;
@@ -101,16 +145,18 @@ img {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
+  /* letter-spacing: 0.04em; */
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--ocean);
 }
 /* index.html/feature section */
+
 /* index.html/examples section */
 /* index.html/team section */
 .team {
-    background-color: var(--cloud);
+  background-color: var(--cloud);
 }
 
 /* porfolio.html/btn-filter portfolio block */
@@ -121,6 +167,7 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
+  /* letter-spacing: 0.04em; */
 }
 .filter-btn:hover,
 .filter-btn:focus {
